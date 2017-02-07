@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@font-face {
+    font-family: alegreyaThin;
+    src: url(alegreya-sans/AlegreyaSans-Thin.ttf);
+}
+#body {
+
+}
+
+#wrapper {
+  width: 84%;
+  height: 100%;
+  padding-left: 8%;
+  padding-right: 8%;
+
+}
+
+h1 {
+  font-family: 'Source Sans Pro';
+  font-weight:100;
+  letter-spacing: 2px;
+}
+h2 {
+  font-family: 'Source Sans Pro';
+  font-weight:100;
+  color: grey;
+  letter-spacing: 2px;
+}
+h3 {
+  letter-spacing: 5px;
+  font-family: alegreyaThin;
+  float:left;
+}
+h4 {
+  font-family:'Source Sans Pro';
+  font-weight: 100;
+  float:left;
+}
+h5 {
+  font-family: 'Source Sans Pro';
+}
+span {
+  font-family: 'Source Sans Pro'
+}
+p {
+  font-family: 'Source Sans Pro';
+  font-weight: 100;
+  font-size: 14px;
+}
+a {
+  color: grey;
+  text-decoration: none;
+}
+li {
+  letter-spacing: 2px;
+}
+a:hover{
+   color: black;
+   text-decoration: none;
+ }
+
+ button {
+   background-color:white;
+   border:solid;
+   border-color: #404040;
+   padding: 5px 10px;
+   font-size: 10px;
+   display:inline;
+   letter-spacing: 2px;
+ }
+ button:hover {
+   background-color:#404040;
+   color: white;
+ }
+
+#header {
+  width: 100%;
+  height: 100%;
+  display: inline;
+}
+
+#header img {
+  float: left;
+  width: 150px;
+  height: 100%;
+}
+#searchnav {
+  margin-top: 100px;
+  display: inline;
+  float:right;
+}
+input {
+  font-size: 15px;
+}
+#searchnav button {
+  height: 24px;
+  padding-bottom: 2px;
+}
+#nav {
+  float: left;
+  width: 100%;
+  border-bottom: solid;
+  border-color:grey;
+}
+#nav li{
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  display: inline;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+#navleft {
+  float: left;
+}
+#navleft ul {
+  padding-left: 0;
+}
+#navright {
+  float: right;
+}
+#coverimg img {
+  width: 100%;
+  margin:0;
+}
+
+#featured {
+  width: 100%;
+  float:left;
+  padding-bottom: 50px;
+  border-bottom:solid;
+  border-color: grey;
+}
+#productrow {
+  width: 100%;
+  float:left;
+}
+.product {
+  width: 275px;
+  height: 100%;
+  float:left;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 20px;
+
+}
+.product a:hover{
+  opacity: 0.7;
+}
+.product img {
+  width: 100%;
+}
+.product h3{
+  margin:0;
+}
+.product h4 {
+  margin:0;
+  float:right;
+  display:inline;
+}
+.product button {
+  background-color:white;
+  border:solid;
+  border-color: #404040;
+  padding: 5px 10px;
+  font-size: 10px;
+  float:right;
+  display:inline;
+}
+.product button:hover {
+    background-color:#404040;
+    color: white;
+}
+
+#blog {
+  width: 100%;
+  float:left;
+  padding-bottom: 75px;
+  border-bottom:solid;
+  border-color: grey;
+}
+.post {
+  width: 275px;
+  height: 100%;
+  float:left;
+  padding-left: 8px;
+  padding-right: 5px;
+
+}
+.post h5{
+  font-family: 'Source Sans Pro';
+  font-weight:
+  margin-bottom:5px;
+}
+.post h3{
+  font-family: 'Source Sans Pro';
+  font-weight: lighter;
+  margin-top:0;
+}
+.post p{
+  margin-top: 0px;
+  width: 90%;
+  float: left;
+}
+
+#footer {
+  margin-top: 30px;
+  float:left;
+  width: 100%;
+}
+#footnav ul{
+  padding-left: 18%;
+}
+#footnav li{
+  font-family: 'Source Sans Pro';
+  letter-spacing: 2px;
+  font-size: 20px;
+  display: inline;
+}
+#footnav span{
+  padding-left: 37px;
+  padding-right: 37px;
+}
+
+.category {
+  background-color: black;
+  width: 350px;
+  height: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  position: relative;
+  float: left;
+}
+.category img{
+  width: 100%;
+  height: 100%;
+}
+.category img:hover {
+  opacity: 0.5;
+}
+.category h3 {
+ font-family: 'Source Sans Pro';
+ color: white;
+ position: absolute;
+ top: 80px;
+ text-align: center;
+ width: 100%;
+}
+
+#productpage {
+  padding-bottom: 50px;
+  border-bottom:solid;
+  border-color: grey;
+  width: 100%;
+  float:left;
+}
+
+#productimg {
+  background-color: red;
+  width: 50%;
+}
+#productimg img{
+  width: 80%;
+  margin-top: 20px;
+  margin-right: 70px;
+  float:left;
+}
+
+#productdescription {
+  display:inline;
+  width: 50%;
+  float: left;
+}
+#productdescription h1{
+  font-family: arial;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+#productdescription p{
+  color: grey;
+}
+#productdescription select {
+    font-size: 15px;
+    margin-right: 10px;
+}
+#size{
+  width: 200px;
+}
+#quantity{
+  width: 50px;
+}
+#productdescription button {
+    border-width: thin;
+    font-size: 12px;
+    height: 15px;
+    padding-top:5px;
+    padding-bottom:15px;
+}
+#price {
+  margin-top: 0;
+  font-size: 20px;
+}
+#txtdescription {
+  border-top: solid;
+  border-width: thin;
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+
+#reviewsection{
+  margin-top: 40px;
+  padding-bottom: 50px;
+  border-bottom:solid;
+  border-color: grey;
+  width: 100%;
+  float:left;
+}
+
+#review {
+  float:left;
+  width: 40%;
+  margin-bottom: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#review span{
+  float:right;
+  font-size: 18px;
+  margin-right: 5px;
+}
+#review h3 {
+  margin:0;
+  margin-right: 10px;
+}
+#review p {
+  float:left;
+}
+
+#additem {
+  width: 100%;
+  float:left;
+}
+#details {
+  display: inline;
+  width: 100%;
+}
+
+
+#details button{
+  float: right;
+}
+#pname {
+  float: left;
+}
+#priceinput {
+  float: right;
+}
+#categoryselect{
+  font-size: 15px;
+  width: 200px;
+}
+#details form{
+  float:left;
+}
+#quantityavailable {
+  float: right;
+}
+#descriptioninput{
+  float:left;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#descriptioninput input{
+  float:left;
+  width: 100%;
+  padding-bottom: 300px;
+}
+#descriptioninput button{
+  margin-top: 30px;
+  float:right;
+  background-color: none;
+  border: none;
+}
